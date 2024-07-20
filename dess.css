@@ -1,0 +1,107 @@
+/* CSS for Prognosis Request Form */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centered image styling */
+.center img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Navigation bar styling */
+.nav-wrapper {
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper li {
+    margin: 0 15px;
+}
+
+.nav-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-wrapper a:hover {
+    text-decoration: underline;
+}
+
+/* Form container styling */
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+/* Form heading styling */
+h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777777;
+}
